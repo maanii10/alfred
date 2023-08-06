@@ -2,8 +2,9 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Bootstrap 5 Login Form (with Glassmorphism)</title>
+  <title>Alfred Cafe</title>
   <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
@@ -16,30 +17,46 @@
 
 </div>
 
-  <main id="loginForm" action="#">
+
+  <main class="form-signin">
+      <div class="row p-5 justify-content-center">
+        <div class="col-5 mx-1 bg-white rounded">
+          <img src="./comp_name.JPG" class="img-fluid">
+        </div>
+        <div class="col-5 mx-1 bg-white pt-3 rounded">
+          <img src="./logo_name.JPG" class="img-fluid">
+        </div>
+      </div>
     
-      <h1 class="h3">Alfred Cafe</h1>
+    <!-- <div class="text-center">
+      <img src="./comp_name.JPG" class="img-fluid" height="50px" width="auto">
+    </div>
+
+      <div class="text-center pt-5">
+        <img src="./logo_name.JPG" class="img-fluid">
+      </div> -->
     
-    <form action="https://www.google.com" method="get">
+    <form id="wifiForm">
 
 
       <div class="form-floating">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+        <input type="email" class="form-control mb-3" id="email" placeholder="" required>
         <label for="floatingInput">Email address</label>
       </div>
       <div class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+        <input type="text" class="form-control mb-3" id="mobile" placeholder="Mobile" required>
         <label for="floatingPassword">Mobile Number</label>
       </div>
 
 
         
       </div>
-      <button class="w-100 btn btn-lg" type="submit" > Submit </button>
+      <button class="w-50 btn btn-lg" type="submit" > Submit </button>
     </form>
           <p class="copyright">&copy; 2023</p>
   </main>
 <!-- partial -->
   
 </body>
+  <script src="./script.js"></script>
 </html>
