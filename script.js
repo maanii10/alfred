@@ -19,9 +19,9 @@ document.getElementById('wifiForm').onsubmit= function(e){
     e.preventDefault(); //prevents default form submission process to allow login and validation
 alert('You have successfully connected to the wifi');
     window.location.href = "https://google.com";
-    return;
+   
     
-    login();
+    //login();
 }
 
 // ******************
