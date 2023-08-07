@@ -1,6 +1,6 @@
 // Parse paramaters
 var base_grant_url = decodeURIComponent(GetURLParameter("login_url"));
-var user_continue_url = decodeURIComponent(GetURLParameter("user_continue_url"));
+var user_continue_url = decodeURIComponent(GetURLParameter("continue_url"));
 var node_mac = GetURLParameter("node_mac");
 var client_ip = GetURLParameter("client_ip");
 var client_mac = GetURLParameter("client_mac");
